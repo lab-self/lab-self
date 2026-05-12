@@ -83,7 +83,9 @@ Fun Fact:
 # 🏠 Enterprise Homelab Infrastructure
 
 <div align="center">
-  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/coding.gif" height="250" />
+  <img src="https://drive.google.com/thumbnail?id=1tuLSetQcqunYJK-eOB1JVG0UCT1Pb1xe&sz=w1200"
+     width="850"
+     alt="OwnInfra Infrastructure"/>
 </div>
 
 ---
