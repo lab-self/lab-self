@@ -225,15 +225,6 @@ Fun Fact:
 
 ---
 
-# ⚡ Infrastructure Status
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=lab-self&theme=tokyonight&no-frame=true&row=1&column=7" />
-
-</div>
-
----
 
 # 🔥 GitHub Activity
 
