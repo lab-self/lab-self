@@ -236,24 +236,6 @@ Fun Fact:
 
 ---
 
-# 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=lab-self&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
-
-<img src="https://streak-stats.demolab.com?user=lab-self&theme=tokyonight&hide_border=true" height="180"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lab-self&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-
-</div>
-
----
-
 # 🌐 Connect With Me
 
 <div align="center">
