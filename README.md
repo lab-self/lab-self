@@ -54,38 +54,38 @@ I use my homelab as an engineering environment to reproduce enterprise concepts 
 
 ```text
                     ┌──────────────────────────┐
-                    │       INTERNET / ISP     │
+                    │     INTERNET / ISP       │
                     └────────────┬─────────────┘
                                  │
                          ┌───────▼───────┐
-                         │    OPNsense   │
-                         │ Firewall / VPN │
+                         │   OPNsense    │
+                         │ Firewall /VPN │
                          └───────┬───────┘
                                  │
-                    ┌────────────▼────────────┐
-                    │      VLAN / Network     │
-                    │   Segmentation Layer    │
-                    └────────────┬────────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-              │                  │                  │
-       ┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
-       │ VMware ESXi │    │ Proxmox VE  │    │   Network   │
-       │ Virtualized │    │ Virtualized │    │ Infrastructure│
-       │ Infrastructure│  │ Infrastructure│  │   & Security │
-       └──────┬──────┘    └──────┬──────┘    └─────────────┘
-              │                  │
-              └──────────┬───────┘
+                    ┌────────────▼──────────── ┐
+                    │     VLAN / Network       │
+                    │   Segmentation Layer     │
+                    └──────────── ┬────────────┘
+                                  │
+              ┌────────────────── ┼──────────────────  ┐
+              │                   │                    │
+       ┌──────▼───── ─┐    ┌──────▼────── ┐    ┌──────▼────── ┐
+       │ VMware ESXi  │    │ Proxmox VE   |    │   Network    │
+       │ Virtualized  │    │ Virtualized  │    │Infrastructure│
+       │Infrastructure│    │Infrastructure│    │   & Security │
+       └──────┬───── ─┘    └──────┬────── ┘    └───────────── ┘
+              │                   │
+              └──────────┬────── ─┘
                          │
                  ┌───────▼────────┐
-                 │ Compute / VMs   │
-                 │ Containers      │
-                 │ Kubernetes      │
+                 │  Compute / VMs │
+                 │  Containers    │
+                 │  Kubernetes    │
                  └───────┬────────┘
                          │
         ┌────────────────┼─────────────────┐
         │                │                 │
-   ┌────▼────┐      ┌────▼────┐      ┌────▼─────┐
+   ┌────▼────┐      ┌────▼──── ┐      ┌────▼─────┐
    │ Storage │      │Monitoring│      │Automation│
    │ TrueNAS │      │ Grafana  │      │ Ansible  │
    │ ZFS/NFS │      │Prometheus│      │Terraform │
